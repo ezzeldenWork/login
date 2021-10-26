@@ -5,8 +5,8 @@ import {ThemeProveder} from "./contexts/ThemeContext";
 import {LanguageProveder} from "./contexts/LangushContext";
 
 const App = () => {
-  return (
-    <ThemeProveder>
+  return ( 
+      <ThemeProveder>
       <LanguageProveder>
         <PageContent>
           <NavBar />
